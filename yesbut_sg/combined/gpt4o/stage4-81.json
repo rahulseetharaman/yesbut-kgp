@@ -1,0 +1,8 @@
+{
+  "id": "stage4-81",
+  "stage": "stage4",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"trash_can\",\n      \"name\": \"Trash Can\",\n      \"attributes\": [\"black\", \"lid\", \"wheels\"],\n      \"text\": \"YES,\"\n    },\n    {\n      \"id\": \"icon_person\",\n      \"name\": \"Icon Person\",\n      \"attributes\": [\"black\", \"bending\"],\n      \"text\": \"BUT\"\n    },\n    {\n      \"id\": \"trash_pile\",\n      \"name\": \"Trash Pile\",\n      \"attributes\": [\"black\", \"spilled\", \"dots around\"]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"type\": \"juxtaposition\",\n      \"from\": \"trash_can\",\n      \"to\": \"icon_person\"\n    },\n    {\n      \"type\": \"action\",\n      \"from\": \"icon_person\",\n      \"to\": \"trash_pile\",\n      \"description\": \"reaching towards\"\n    }\n  ]\n}\n```",
+  "final_answer": "The image is funny and satirical due to its use of contrast and expectation. On the left is a clean, orderly trash can with the word \"YES,\" suggesting it\u2019s a proper place to dispose of trash. On the right, an icon of a person is bending over a messy pile of spilled trash with the word \"BUT,\" implying that despite the presence of the trash can, people might still create messes. The humor arises from the irony of providing a solution (the trash can) while still showcasing a problem (spilled trash). It highlights human behavior in a humorous yet critical way, pointing out how people sometimes ignore obvious solutions.",
+  "ground_truth": "The images are ironic because even though garbage bins are provided for humans to dispose waste, by habit humans still choose to make surroundings dirty by disposing garbage improperly"
+}

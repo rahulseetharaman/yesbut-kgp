@@ -1,0 +1,8 @@
+{
+  "id": "stage2-268",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"First Panel Phone\",\n      \"attributes\": [\"ultra slim\"],\n      \"relationships\": {\n        \"text\": \"ULTRA SLIM\"\n      }\n    },\n    {\n      \"name\": \"Second Panel Phone\",\n      \"attributes\": [\"charging\"],\n      \"relationships\": {\n        \"connected to\": \"Power Bank\"\n      }\n    },\n    {\n      \"name\": \"Power Bank\",\n      \"attributes\": [\"bulky\"],\n      \"relationships\": {\n        \"connected to\": \"Second Panel Phone\",\n        \"held by\": \"Hand\"\n      }\n    },\n    {\n      \"name\": \"Hand\",\n      \"attributes\": [],\n      \"relationships\": {\n        \"holding\": [\"First Panel Phone\", \"Power Bank\"]\n      }\n    }\n  ]\n}\n```",
+  "final_answer": "The image humorously contrasts the advantage of having an \"ultra slim\" phone with the practical drawback of needing a bulky power bank to keep it charged. \n\nIn the first panel, the phone is shown as ultra slim, highlighting the sleekness and modern appeal. However, the second panel humorously undercuts this advantage by showing the phone connected to a bulky power bank, suggesting that despite being slim, it has compromised battery life, necessitating an inconvenient workaround. \n\nThis satirical commentary pokes fun at the trade-offs in modern technology, where aesthetic design might sacrifice practical functionality.",
+  "ground_truth": "The image is satirical because even though the mobile phone has been developed to be very slim, it requires frequent recharging which makes the mobile phone useless without a big, heavy and thick power bank."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "stage2-196",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"1\",\n      \"name\": \"water_cooler\",\n      \"attributes\": {\n        \"full\": true\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"name\": \"empty_glass\",\n      \"attributes\": {\n        \"empty\": true\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"name\": \"sign\",\n      \"attributes\": {\n        \"text\": \"Drinking water\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"type\": \"provides\",\n      \"source\": \"water_cooler\",\n      \"target\": \"drinking_water\"\n    },\n    {\n      \"type\": \"irony_due_to_empty\",\n      \"source\": \"sign\",\n      \"target\": \"empty_glass\"\n    }\n  ],\n  \"humor_elements\": [\n    {\n      \"type\": \"contrast\",\n      \"description\": \"The water cooler is full but the glass next to it is empty, highlighting the irony and humor.\"\n    }\n  ]\n}\n```",
+  "final_answer": "The humor in this image comes from the ironic contrast between the expected and the actual situation. The scene graph describes a water cooler labeled \u201cDrinking water,\u201d suggesting that people can fill a glass with water. However, the humor arises because the glass next to the cooler is empty, despite the cooler being full. The \"Yes, But\" caption highlights this contrast by presenting the expectation (a full water cooler providing water) and the reality (an empty glass), creating a humorous and satirical take on anticipated convenience not being met.",
+  "ground_truth": "The images are funny since they show how a workspace has installed drinking water dispenser but it is of no use since the water cup dispenser is left empty"
+}

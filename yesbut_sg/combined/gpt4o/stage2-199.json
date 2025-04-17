@@ -1,0 +1,8 @@
+{
+  "id": "stage2-199",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"left_torso\",\n      \"attributes\": [\"muscular\"],\n      \"relationships\": [\n        {\n          \"related_object\": \"left_lightbulb\",\n          \"relationship\": \"aligned_with\"\n        }\n      ]\n    },\n    {\n      \"name\": \"right_torso\",\n      \"attributes\": [\"less_muscular\"],\n      \"relationships\": [\n        {\n          \"related_object\": \"right_lightbulb\",\n          \"relationship\": \"aligned_with\"\n        }\n      ]\n    },\n    {\n      \"name\": \"left_lightbulb\",\n      \"attributes\": [\"off\"],\n      \"relationships\": []\n    },\n    {\n      \"name\": \"right_lightbulb\",\n      \"attributes\": [\"on\"],\n      \"relationships\": []\n    }\n  ]\n}\n```",
+  "final_answer": "The image is funny and satirical because it contrasts two torsos with different levels of musculature, using lightbulbs to humorously comment on intelligence or ideas. \n\nThe \"left_torso\" is muscular and aligned with an \"off\" lightbulb, while the \"right_torso\" is less muscular but has an \"on\" lightbulb. This suggests a playful stereotype that physical strength and intelligence or creativity (represented by the lightbulb) are inversely related. The labels \"YES,\" and \"BUT,\" reinforce this humorous contrast by implying that there is a trade-off between physical and mental attributes.",
+  "ground_truth": "The images are funny because it shows the same body in two different lighting conditions, one where it appears muscular and one where it does not appear so. It shows how we can make the same thing appear appealing to others without it being as appealing in real life"
+}

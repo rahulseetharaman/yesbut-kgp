@@ -1,0 +1,8 @@
+{
+  "id": "stage2-87",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"scooters\",\n      \"name\": \"Scooters\",\n      \"attributes\": [\"stacked\", \"new\", \"aligned\"]\n    },\n    {\n      \"id\": \"road\",\n      \"name\": \"Road\",\n      \"attributes\": [\"cracked\", \"uneven\", \"crumbly\"]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"relation\": \"contrast\",\n      \"subject\": \"scooters\",\n      \"object\": \"road\",\n      \"description\": \"The new, aligned scooters are contrasted with the cracked, uneven road.\"\n    }\n  ]\n}\n```",
+  "final_answer": "The humor in this image arises from the juxtaposition between the neatly stacked, new scooters and the cracked, uneven road. The caption \"YES, BUT\" highlights this contrast, suggesting an ironic situation where investments are made in new technology (the scooters) without addressing basic infrastructure needs (the road). It's a satirical take on prioritizing modern conveniences while neglecting fundamental issues.",
+  "ground_truth": "The image is ironic, because even after when the skateboard scooters are available for someone to ride but the road has many potholes that it is not suitable to ride the scooters on such roads"
+}

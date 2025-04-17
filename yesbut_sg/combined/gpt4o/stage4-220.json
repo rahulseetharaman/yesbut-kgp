@@ -1,0 +1,8 @@
+{
+  "id": "stage4-220",
+  "stage": "stage4",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": 1,\n      \"name\": \"nail_clipper\",\n      \"attributes\": {\n        \"decorative_design\": true,\n        \"exaggerated_detail\": true\n      }\n    },\n    {\n      \"id\": 2,\n      \"name\": \"person\",\n      \"attributes\": {\n        \"silhouette\": true,\n        \"suit\": true,\n        \"mouth_open\": true,\n        \"hand_near_mouth\": true\n      }\n    },\n    {\n      \"id\": 3,\n      \"name\": \"text_yes\",\n      \"attributes\": {\n        \"position\": \"top_left\",\n        \"text\": \"YES,\"\n      }\n    },\n    {\n      \"id\": 4,\n      \"name\": \"text_but\",\n      \"attributes\": {\n        \"position\": \"top_right\",\n        \"text\": \"BUT\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"source\": 3,\n      \"relationship\": \"positioned_near\",\n      \"target\": 1\n    },\n    {\n      \"source\": 4,\n      \"relationship\": \"positioned_near\",\n      \"target\": 2\n    },\n",
+  "final_answer": "This image uses visual humor and satire by juxtaposing a fancy, overly detailed nail clipper with a silhouetted person in a suit biting their nails. The text \"YES, BUT\" emphasizes the contrast: although a decorative nail clipper is available, the person humorously resorts to biting their nails instead. This play on expectations highlights human behavior in a light-hearted way, mocking how people might ignore the obvious and elegant solution in favor of less sophisticated habits.",
+  "ground_truth": "The image is ironic, because even after nail clippers are available people prefer biting their nails by teeth"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "stage3-105",
+  "stage": "stage3",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"Text_Message\",\n      \"attributes\": {\n        \"content\": \"wish you were here\",\n        \"emoji\": \"heart\"\n      }\n    },\n    {\n      \"name\": \"Person_Icon\",\n      \"attributes\": {\n        \"pose\": \"seated\",\n        \"activity\": \"holding phone\"\n      }\n    },\n    {\n      \"name\": \"Toilet\",\n      \"attributes\": {},\n      \"relationships\": {\n        \"is_seated_by\": \"Person_Icon\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"relationship_type\": \"creates_humor_with\",\n      \"objects\": [\"Text_Message\", \"Person_Icon\"]\n    },\n    {\n      \"relationship_type\": \"contextualizes\",\n      \"objects\": [\"Phone\", \"Text_Message\"]\n    }\n  ]\n}\n```",
+  "final_answer": "The humor in this image comes from the juxtaposition of a romantic text message with an unexpected context. The message, \"wish you were here \u2764\ufe0f,\" typically conveys longing and affection. However, the person depicted is sitting on a toilet while holding a phone. This contrast creates a comic effect by putting a common expression of endearment in an unlikely and mundane scenario, highlighting the absurdity and irony in the combination of romantic sentiments with an everyday bathroom setting.",
+  "ground_truth": "The images are funny since it shows how even though a man writes to his partner that he wishes she was there to show that he misses her, it would be inappropriate and gross if it were to happen literally as he is sitting on his toilet"
+}

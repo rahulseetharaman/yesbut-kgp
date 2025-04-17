@@ -1,0 +1,8 @@
+{
+  "id": "stage2-137",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"1\",\n      \"name\": \"bicycle_front_wheel\",\n      \"attributes\": [\"detached\", \"locked\"]\n    },\n    {\n      \"id\": \"2\",\n      \"name\": \"bicycle_frame\",\n      \"attributes\": [\"missing_front_wheel\"]\n    },\n    {\n      \"id\": \"3\",\n      \"name\": \"lock\",\n      \"attributes\": [\"secure\"]\n    },\n    {\n      \"id\": \"4\",\n      \"name\": \"pole\",\n      \"attributes\": []\n    }\n  ],\n  \"relationships\": [\n    {\n      \"subject_id\": \"1\",\n      \"relationship\": \"secured_by\",\n      \"object_id\": \"3\"\n    },\n    {\n      \"subject_id\": \"3\",\n      \"relationship\": \"attached_to\",\n      \"object_id\": \"4\"\n    },\n    {\n      \"subject_id\": \"2\",\n      \"relationship\": \"missing\",\n      \"object_id\": \"1\"\n    }\n  ]\n}\n```",
+  "final_answer": "The image is funny or satirical because it highlights the ineffectiveness of securing only part of a bicycle. In the left panel, the front wheel is locked to a pole, but in the right panel, it\u2019s revealed that the rest of the bicycle is missing. This shows the irony and futility of the situation: while technically something was locked up (the front wheel), the more important part\u2014the bike frame\u2014was left unsecured and easily taken. It's a humorous take on misplaced priorities and incomplete precautions.",
+  "ground_truth": "the irony is that people lock their bikes on poles where anyone can just lift the bike out of the pole"
+}

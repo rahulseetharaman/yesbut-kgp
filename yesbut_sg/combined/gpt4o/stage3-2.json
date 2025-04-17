@@ -1,0 +1,8 @@
+{
+  "id": "stage3-2",
+  "stage": "stage3",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n    \"objects\": [\n        {\n            \"name\": \"legs_with_heels\",\n            \"attributes\": [\"silhouette\", \"high heels\"],\n            \"relationships\": {\n                \"implies\": \"fashionable\"\n            }\n        },\n        {\n            \"name\": \"damaged_feet\",\n            \"attributes\": [\"bandaged\", \"red\", \"pain\"],\n            \"relationships\": {\n                \"contrasts\": \"legs_with_heels\"\n            }\n        }\n    ],\n    \"relationships\": [\n        {\n            \"subject\": \"legs_with_heels\",\n            \"relationship\": \"implies\",\n            \"object\": \"fashionable\"\n        },\n        {\n            \"subject\": \"damaged_feet\",\n            \"relationship\": \"contrasts\",\n            \"object\": \"legs_with_heels\"\n        }\n    ]\n}\n```",
+  "final_answer": "The image humorously highlights the contrast between the allure of wearing high heels and the painful reality they can cause. \n\nThe left side of the image shows a silhouette of legs in high heels, which implies fashion and elegance. The right side, however, reveals the aftermath\u2014bandaged and red feet, suggesting pain and discomfort. \n\nThis juxtaposition is satirical as it pokes fun at the sacrifices people make for fashion, illustrating the hidden, often painful, costs of appearing fashionable. The \"Yes, but\" text underscores the irony and exaggerates the discrepancy between appearance and reality.",
+  "ground_truth": "The images are funny since they show how the prettiest footwears like high heels, end up causing a lot of physical discomfort to the user, all in the name fashion"
+}

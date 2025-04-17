@@ -1,0 +1,8 @@
+{
+  "id": "stage2-136",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"panel1\",\n      \"type\": \"panel\",\n      \"attributes\": {\"text\": \"YES,\"}\n    },\n    {\n      \"id\": \"panel2\",\n      \"type\": \"panel\",\n      \"attributes\": {\"text\": \"BUT\"}\n    },\n    {\n      \"id\": \"dog_toys\",\n      \"type\": \"toys\",\n      \"attributes\": {\"items\": [\"rubber chicken\", \"rope\", \"bone\", \"tennis ball\"]}\n    },\n    {\n      \"id\": \"dog\",\n      \"type\": \"dog\",\n      \"attributes\": {\"holding\": \"shoe\"}\n    },\n    {\n      \"id\": \"shoe\",\n      \"type\": \"shoe\",\n      \"attributes\": {\"color\": \"red\"}\n    }\n  ],\n  \"relationships\": [\n    {\n      \"from\": \"panel1\",\n      \"to\": \"dog_toys\",\n      \"type\": \"contains\"\n    },\n    {\n      \"from\": \"panel2\",\n      \"to\": \"dog\",\n      \"type\": \"contains\"\n    },\n    {\n      \"from\": \"dog\",\n      \"to\": \"shoe\",\n      \"type\": \"holding\"\n    }\n  ],\n",
+  "final_answer": "This image is funny because it humorously illustrates the typical behavior of dogs. In the first panel labeled \"YES,\" various dog toys like a rubber chicken, rope, bone, and tennis ball are shown, which are assumed to be what a dog should play with. However, in the second panel labeled \"BUT,\" the dog is holding a shoe instead, which is something dogs often do despite having plenty of designated toys. This highlights the irony and humor in the unexpected choices pets make, disregarding their toys for household items.",
+  "ground_truth": "the irony is that dog owners buy loads of toys for their dog but the dog's favourite toy is the owner's slippers"
+}

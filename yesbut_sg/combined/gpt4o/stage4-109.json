@@ -1,0 +1,8 @@
+{
+  "id": "stage4-109",
+  "stage": "stage4",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"steering_wheel\",\n      \"name\": \"Steering Wheel\",\n      \"attributes\": [\"sparkling\", \"diamond-encrusted\"]\n    },\n    {\n      \"id\": \"car_dashboard\",\n      \"name\": \"Car Dashboard\",\n      \"attributes\": [\"dusty\", \"dirty\"]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"subject_id\": \"steering_wheel\",\n      \"relationship\": \"contrasts_with\",\n      \"object_id\": \"car_dashboard\",\n      \"attributes\": [\"opposing cleanliness\"]\n    }\n  ]\n}\n```",
+  "final_answer": "The humor in this image stems from the stark contrast between the two depicted objects: a sparkling, diamond-encrusted steering wheel and a dusty, dirty car dashboard. The exaggerated luxury of the steering wheel juxtaposed with the neglected and dirty state of the dashboard highlights a sense of misplaced priorities. It's satirical because it pokes fun at the idea of investing in flashy, showy items while neglecting basic cleanliness and maintenance. This contrast creates an amusing and ironic situation, emphasizing how appearances can be prioritized over practicality or overall care.",
+  "ground_truth": "The dashboard and steering wheel of the car look sparkling clean, but the greasy fingerprints on the touch panel reduce the appeal of the dashboard."
+}

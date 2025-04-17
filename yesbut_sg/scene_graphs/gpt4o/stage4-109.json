@@ -1,0 +1,3 @@
+{
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"steering_wheel\",\n      \"name\": \"Steering Wheel\",\n      \"attributes\": [\"sparkling\", \"diamond-encrusted\"]\n    },\n    {\n      \"id\": \"car_dashboard\",\n      \"name\": \"Car Dashboard\",\n      \"attributes\": [\"dusty\", \"dirty\"]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"subject_id\": \"steering_wheel\",\n      \"relationship\": \"contrasts_with\",\n      \"object_id\": \"car_dashboard\",\n      \"attributes\": [\"opposing cleanliness\"]\n    }\n  ]\n}\n```"
+}

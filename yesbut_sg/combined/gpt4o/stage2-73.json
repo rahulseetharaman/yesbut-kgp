@@ -1,0 +1,8 @@
+{
+  "id": "stage2-73",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"steering_wheel\",\n      \"attributes\": [\n        \"shiny\",\n        \"clean\"\n      ],\n      \"relationships\": {\n        \"contrast_with\": \"display_screen\"\n      }\n    },\n    {\n      \"name\": \"dashboard\",\n      \"attributes\": [\n        \"shiny\",\n        \"clean\"\n      ],\n      \"relationships\": {\n        \"adjacent_to\": \"steering_wheel\",\n        \"contrast_with\": \"display_screen\"\n      }\n    },\n    {\n      \"name\": \"display_screen\",\n      \"attributes\": [\n        \"dirty\",\n        \"spotted\"\n      ],\n      \"relationships\": {\n        \"embedded_in\": \"dashboard\"\n      }\n    }\n  ]\n}\n```\n",
+  "final_answer": "The humor in the image lies in the contrast between the cleanliness of the steering wheel and dashboard compared to the dirty, spotted display screen. The image is divided into two panels with \"YES,\" on the left and \"BUT\" on the right. This implies a situation where attention is given to cleaning some parts of the car interior, like the steering wheel and dashboard, but neglecting the display screen. The sparkling clean elements next to the noticeably unclean screen enhance the contrast, making it satirical. It pokes fun at selective or incomplete cleaning habits, highlighting a common oversight in maintaining cleanliness.",
+  "ground_truth": "The dashboard and steering wheel of the car look sparkling clean, but the greasy fingerprints on the touch panel reduce the appeal of the dashboard."
+}

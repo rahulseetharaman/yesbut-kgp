@@ -1,0 +1,8 @@
+{
+  "id": "stage2-55",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"Left Phone Screen\",\n      \"attributes\": {\n        \"battery\": \"full\",\n        \"time\": \"15:34\",\n        \"weather\": \"19 degrees\",\n        \"apps\": \"visible\"\n      }\n    },\n    {\n      \"name\": \"Right Phone Screen\",\n      \"attributes\": {\n        \"battery\": \"low\",\n        \"time\": \"17:23\",\n        \"app\": \"Screenshots\",\n        \"previous_screen\": \"visible\"\n      }\n    },\n    {\n      \"name\": \"Red Circle\",\n      \"attributes\": {\n        \"color\": \"red\",\n        \"position\": \"around battery icons\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"from\": \"Left Phone Screen\",\n      \"to\": \"Right Phone Screen\",\n      \"relationship\": \"comparison\"\n    },\n    {\n      \"from\": \"Red Circle\",\n      \"to\": \"Battery Icons\",\n      \"relationship\": \"emphasizes\"\n    }\n  ]\n}\n```",
+  "final_answer": "The humor in the image arises from the juxtaposition of two phone screens with contrasting battery statuses. The left screen shows a full battery, while the right screen, displaying a screenshot of the left, has a low battery. The red circles emphasize the battery icons, highlighting this contrast.\n\nThis discrepancy leads to a satirical observation about how our phones can quickly change from fully charged to low battery, often when we least expect it. The \"YES, BUT\" text humorously acknowledges this frustrating reality, turning an everyday annoyance into a relatable joke.",
+  "ground_truth": "The image is ironic, because"
+}

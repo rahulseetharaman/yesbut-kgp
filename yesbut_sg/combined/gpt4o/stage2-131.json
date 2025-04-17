@@ -1,0 +1,8 @@
+{
+  "id": "stage2-131",
+  "stage": "stage2",
+  "difficulty": "MEDIUM",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"airplane_seat\",\n      \"attributes\": [\"upright\", \"reclined\"]\n    },\n    {\n      \"name\": \"person\",\n      \"attributes\": [\"confused\", \"relaxed\", \"happy\"],\n      \"relationships\": {\n        \"position\": [\"sitting_in_seat\", \"crouching_on_floor\", \"sliding_down_slide\"]\n      }\n    },\n    {\n      \"name\": \"emergency_slide\",\n      \"attributes\": [\"inflated\", \"attached_to_plane\"],\n      \"relationships\": {\n        \"interaction_with_person\": \"sliding_down\"\n      }\n    }\n  ],\n  \"relationships\": {\n    \"person_to_seat\": \"sitting_then_leaving\",\n    \"seat_adjustment\": \"causes_confusion\",\n    \"exit\": \"through_emergency_slide\"\n  }\n}\n```",
+  "final_answer": "The humor in this image comes from the juxtaposition of a serious situation with a lighthearted twist. The left panel shows a person following emergency procedures on an airplane, like adjusting their seat and adopting the brace position, which are typically connected to a tense scenario. However, the right panel humorously contrasts this by showing the person gleefully exiting the plane via an emergency slide, as if it's a fun ride.\n\nThis unexpected transition from seriousness to joy is funny because it mocks the usual stress of emergency procedures by turning the evacuation into an enjoyable, almost childlike experience. This playful twist is what gives the scene its satirical edge.",
+  "ground_truth": "These images are funny since it shows how we are taught emergency procedures to follow in case of an accident while in an airplane but how none of them work if the plane is still in air"
+}

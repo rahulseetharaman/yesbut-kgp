@@ -1,0 +1,3 @@
+{
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"poster\",\n      \"attributes\": {\n        \"text\": \"Music Band World Tour\",\n        \"design\": \"stylized text with guitars\",\n        \"illustration\": \"globe\"\n      }\n    },\n    {\n      \"name\": \"map\",\n      \"attributes\": {\n        \"highlighted_countries\": [\"partially_filled\"],\n        \"overall_context\": \"world map with few countries colored\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"subject\": \"poster\",\n      \"relationship\": \"implies\",\n      \"object\": \"global reach or extensive tour\"\n    },\n    {\n      \"subject\": \"map\",\n      \"relationship\": \"contradicts\",\n      \"object\": \"poster\"\n    }\n  ]\n}\n```"
+}

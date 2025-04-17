@@ -1,0 +1,8 @@
+{
+  "id": "stage4-7",
+  "stage": "stage4",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"1\",\n      \"name\": \"text\",\n      \"attributes\": {\n        \"content\": \"YES,\",\n        \"position\": \"top left\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"name\": \"fireworks\",\n      \"attributes\": {\n        \"colors\": [\"orange\", \"green\", \"yellow\"],\n        \"style\": \"simplistic\"\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"name\": \"text\",\n      \"attributes\": {\n        \"content\": \"BUT\",\n        \"position\": \"top right\"\n      }\n    },\n    {\n      \"id\": \"4\",\n      \"name\": \"dog_on_table\",\n      \"attributes\": {\n        \"style\": \"silhouette\"\n      }\n    },\n    {\n      \"id\": \"5\",\n      \"name\": \"cat\",\n      \"attributes\": {\n        \"style\": \"silhouette\"\n      }\n    },\n    {\n      \"id\": \"6\",\n      \"name\": \"dog_on_floor\",\n      \"attributes\": {\n        \"style\": \"silhouette\"\n      }\n    },\n    {\n      \"id\": \"7\",\n      \"name\": \"table\",\n",
+  "final_answer": "The image humorously contrasts the excitement of fireworks (\"YES,\" with colorful fireworks) with the typical reaction of pets (\"BUT,\" featuring a dog and cat in silhouette under a table). Many animals, particularly cats and dogs, are known to be frightened by fireworks. The juxtaposition highlights the clash between human celebration and animals' fear, making it both funny and relatable.",
+  "ground_truth": "The image is satirical because while firecrackers in the sky look pretty, not everyone likes them. Animals are very scared of the firecrackers."
+}

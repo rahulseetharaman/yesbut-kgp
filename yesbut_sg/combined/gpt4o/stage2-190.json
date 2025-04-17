@@ -1,0 +1,8 @@
+{
+  "id": "stage2-190",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"object1\",\n      \"name\": \"card1\",\n      \"text\": \"1053 Followers\",\n      \"attributes\": {\n        \"label\": \"YES\",\n        \"position\": \"left\"\n      }\n    },\n    {\n      \"id\": \"object2\",\n      \"name\": \"card2\",\n      \"text\": \"5467 Following\",\n      \"attributes\": {\n        \"label\": \"BUT\",\n        \"position\": \"right\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"from\": \"object1\",\n      \"to\": \"object2\",\n      \"relationship\": \"contrast\",\n      \"meaning\": \"The number of followers is contrasted with the higher number of following, creating a humorous situation about one's social media behavior.\"\n    }\n  ]\n}\n```",
+  "final_answer": "The humor in the image arises from the contrast between the two cards: \"1053 Followers\" and \"5467 Following.\" This creates a satirical take on social media behavior. Typically, having significantly more followers than people you follow is seen as a mark of popularity. Here, the numbers are reversed, suggesting that the person is following many more than those who follow back, potentially highlighting a humorous or ironic desperation for social connections or approval on social media platforms. This contrast is emphasized by the \"YES, BUT\" labels, humorously acknowledging the disparity and poking fun at the situation.",
+  "ground_truth": "The image creates a comparison between the following and followers of a account which suggests that the person/organizations follows more people/organizations than being followed back"
+}

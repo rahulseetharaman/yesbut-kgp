@@ -1,0 +1,8 @@
+{
+  "id": "stage3-77",
+  "stage": "stage3",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"1\",\n      \"name\": \"Fancy Coffee Cup\",\n      \"attributes\": [\"decorative latte art\", \"saucer\", \"spoon\"],\n      \"relationships\": {\n        \"contrast_with\": \"Minimalist Coffee Cup\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"name\": \"Minimalist Coffee Cup\",\n      \"attributes\": [\"simple design\", \"lid\"],\n      \"relationships\": {\n        \"contrast_with\": \"Fancy Coffee Cup\"\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"name\": \"Text\",\n      \"attributes\": [\"YES, BUT\"],\n      \"relationships\": {\n        \"describes_relation_between\": [\"Fancy Coffee Cup\", \"Minimalist Coffee Cup\"]\n      }\n    }\n  ]\n}\n```",
+  "final_answer": "The image humorously contrasts two different coffee cups through the use of the words \"YES, BUT.\" On the left, there's a fancy coffee cup with decorative latte art, a saucer, and a spoon, which represents a more traditional, ornate way to enjoy coffee. On the right, there's a minimalist coffee cup with a simple design and a lid, highlighting a modern, utilitarian approach.\n\nThe humor or satire comes from this juxtaposition. The phrase \"YES, BUT\" implies that while the fancy cup might be appealing, the minimalist cup might be seen as more practical or straightforward. This plays on the idea of personal taste and priorities, poking fun at the decision between style and simplicity.",
+  "ground_truth": "The images are funny since it shows how someone has put effort into a cup of coffee to do latte art on it only for it to be invisible after a lid is put on the coffee cup before serving to a customer"
+}

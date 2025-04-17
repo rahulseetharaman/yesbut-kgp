@@ -1,0 +1,3 @@
+{
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": 1,\n      \"name\": \"tattoo\",\n      \"attributes\": {\n        \"shape\": \"cross\",\n        \"location\": \"back\",\n        \"context\": \"religious\"\n      }\n    },\n    {\n      \"id\": 2,\n      \"name\": \"figure\",\n      \"attributes\": {\n        \"style\": \"silhouette\",\n        \"pose\": \"kneeling\",\n        \"overlay\": \"cross\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"relationship\": \"comparison\",\n      \"objects\": [1, 2],\n      \"description\": \"Tattoo on back vs. silhouette with cross overlay\"\n    }\n  ]\n}\n```"
+}

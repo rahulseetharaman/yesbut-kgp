@@ -1,0 +1,8 @@
+{
+  "id": "stage4-66",
+  "stage": "stage4",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"can\",\n      \"name\": \"Diet Cola can\",\n      \"attributes\": [\"no sugar\", \"diet label\"]\n    },\n    {\n      \"id\": \"fries_left\",\n      \"name\": \"Fries in container\",\n      \"attributes\": []\n    },\n    {\n      \"id\": \"burger\",\n      \"name\": \"Burger\",\n      \"attributes\": [\"large\", \"unhealthy\"]\n    },\n    {\n      \"id\": \"fries_right\",\n      \"name\": \"Fries\",\n      \"attributes\": [\"large portion\"]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"from\": \"can\",\n      \"to\": \"fries_left\",\n      \"relationship\": \"placed next to\"\n    },\n    {\n      \"from\": \"burger\",\n      \"to\": \"fries_right\",\n      \"relationship\": \"accompanied by\"\n    }\n  ]\n}\n```",
+  "final_answer": "The humor and satire in the image come from the juxtaposition of choosing a diet soda with \"no sugar\" while also having a large, unhealthy burger and fries. The left side, labeled \"YES,\" features the Diet Cola, emphasizing a seemingly healthier choice. The right side, labeled \"BUT,\" shows a massive, unhealthy burger and a large portion of fries, contrasting the initial healthy decision. The image humorously highlights a common paradox where people make small healthy choices that are overshadowed by larger unhealthy ones.",
+  "ground_truth": "The image is ironic, because on one hand the person is consuming diet cola suggesting low on sugar as per label meaning the person is health-conscious but on the other hand the same one is having huge size burger with french fries which suggests the person to be health-ignorant"
+}

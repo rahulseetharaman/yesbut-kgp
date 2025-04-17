@@ -1,0 +1,8 @@
+{
+  "id": "stage4-112",
+  "stage": "stage4",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"sign\",\n      \"attributes\": [\"labeled 'Secret Beach'\"],\n      \"relationships\": {\n        \"indicates\": \"beach location\"\n      }\n    },\n    {\n      \"name\": \"beach\",\n      \"attributes\": [\"crowded\", \"labeled\"],\n      \"relationships\": {\n        \"contains\": \"people\"\n      }\n    },\n    {\n      \"name\": \"people\",\n      \"attributes\": [\"many\", \"relaxed\"],\n      \"relationships\": {\n        \"located at\": \"beach\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"subject\": \"sign\",\n      \"predicate\": \"contradicts\",\n      \"object\": \"crowded beach\"\n    },\n    {\n      \"subject\": \"beach\",\n      \"predicate\": \"attracts\",\n      \"object\": \"people\"\n    }\n  ]\n}\n```",
+  "final_answer": "The humor in this image comes from the contradiction between the term \"Secret Beach\" and the reality depicted. A sign labeled \"Secret Beach\" is prominently displayed, indicating that it's supposed to be a hidden or private location. However, the image shows the beach as crowded, filled with relaxed people, highlighting the irony. The concept of something labeled as \"secret\" but actually being popular and well-known creates a satirical commentary on how some \"hidden\" spots are actually publicized and overcrowded, losing their supposed exclusivity.",
+  "ground_truth": "The image is ironical, as people can be seen in the beach, and is clearly not a secret, while the board at the entrance has \"Secret Beach\" written on it."
+}

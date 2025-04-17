@@ -1,0 +1,8 @@
+{
+  "id": "stage2-214",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"e-ticket\",\n      \"attributes\": [\"electronic\", \"small\", \"detailed\"]\n    },\n    {\n      \"name\": \"hand\",\n      \"attributes\": [\"holding\", \"human\"]\n    },\n    {\n      \"name\": \"paper\",\n      \"attributes\": [\"large\", \"blank\"]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"subject\": \"e-ticket\",\n      \"relationship\": \"printed on\",\n      \"object\": \"paper\"\n    },\n    {\n      \"subject\": \"hand\",\n      \"relationship\": \"holding\",\n      \"object\": \"paper\"\n    },\n    {\n      \"subject\": \"paper\",\n      \"relationship\": \"contrast with\",\n      \"object\": \"e-ticket\"\n    }\n  ],\n  \"humor\": {\n    \"source\": [\n      \"contrast between small e-ticket and large paper\",\n      \"ironic representation of 'electronic' ticket requiring physical paper\"\n    ]\n  }\n}\n```",
+  "final_answer": "The humor in this image comes from the ironic situation where an \"e-ticket,\" which is meant to be electronic and paperless, is humorously printed on a large sheet of paper. The contrast between the small, detailed e-ticket and the unnecessarily large blank paper mocks the concept of digital convenience by satirizing how digital solutions are sometimes implemented in an inefficient, old-fashioned way. The phrase \"Yes, But\" emphasizes the contradiction, enhancing the comedic effect.",
+  "ground_truth": "The images are ironic since even though e-tickets are provided to save resources like paper, people choose to print out e-tickets on large sheets of paper which leads to more wastage"
+}

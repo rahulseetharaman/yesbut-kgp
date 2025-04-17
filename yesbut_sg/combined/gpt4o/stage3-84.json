@@ -1,0 +1,8 @@
+{
+  "id": "stage3-84",
+  "stage": "stage3",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"shoppingCart\",\n      \"attributes\": {\n        \"type\": \"empty\",\n        \"color\": \"black\"\n      }\n    },\n    {\n      \"name\": \"person\",\n      \"attributes\": {\n        \"pose\": \"struggling\",\n        \"style\": \"silhouette\"\n      }\n    },\n    {\n      \"name\": \"shapes\",\n      \"attributes\": {\n        \"types\": [\"circles\", \"cubes\"],\n        \"color\": \"black\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"subject\": \"shoppingCart\",\n      \"relationship\": \"contrasts_with\",\n      \"object\": \"person\"\n    },\n    {\n      \"subject\": \"person\",\n      \"relationship\": \"carrying\",\n      \"object\": \"shapes\"\n    },\n    {\n      \"subject\": \"shapes\",\n      \"relationship\": \"surrounding\",\n      \"object\": \"person\"\n    }\n  ]\n}\n```",
+  "final_answer": "The image is funny or satirical due to its clever contrast and irony. On the left, an empty shopping cart labeled \"YES\" suggests readiness or availability to carry items. On the right, a silhouette of a person is struggling to carry various shapes, labeled \"BUT,\" despite the empty cart nearby. \n\nThis setup humorously highlights a situation where the logical solution (using a cart to carry items) is ignored or missed, resulting in unnecessary effort. It satirizes human tendencies to overlook simple solutions in favor of more difficult or inefficient methods.",
+  "ground_truth": "The image is ironic, because even when there are steel frame baskets are available at the supermarkets people prefer carrying the items in hand"
+}

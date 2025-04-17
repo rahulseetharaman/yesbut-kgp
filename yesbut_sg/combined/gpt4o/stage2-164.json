@@ -1,0 +1,8 @@
+{
+  "id": "stage2-164",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"mayo_pack\",\n      \"type\": \"pack\",\n      \"attributes\": {\n        \"label\": \"MAYO\",\n        \"qualifier\": \"VEGAN\"\n      }\n    },\n    {\n      \"id\": \"hand\",\n      \"type\": \"hand\"\n    },\n    {\n      \"id\": \"steak\",\n      \"type\": \"steak\",\n      \"attributes\": {\n        \"state\": \"uncooked\"\n      }\n    },\n    {\n      \"id\": \"plate\",\n      \"type\": \"plate\"\n    }\n  ],\n  \"relationships\": [\n    {\n      \"from\": \"hand\",\n      \"to\": \"mayo_pack\",\n      \"relationship\": \"holding\"\n    },\n    {\n      \"from\": \"mayo_pack\",\n      \"to\": \"steak\",\n      \"relationship\": \"pouring onto\"\n    },\n    {\n      \"from\": \"steak\",\n      \"to\": \"plate\",\n      \"relationship\": \"placed on\"\n    }\n  ]\n}\n```\n",
+  "final_answer": "The image is funny or satirical because it highlights a humorous contradiction: using vegan mayonnaise on a steak. The left panel shows a pack labeled \"VEGAN MAYO,\" suggesting a focus on plant-based or animal-free diet choices. The right panel then contrasts this by showing the vegan mayo being poured onto a steak, which is typically not vegan. This juxtaposition creates irony, as the use of vegan products suggests a plant-based lifestyle, which is humorously undermined by the presence of meat.",
+  "ground_truth": "The image is ironical, as vegan mayo sauce is being poured on rib steak, which is non-vegetarian. The person might as well just use normal mayo sauce instead."
+}

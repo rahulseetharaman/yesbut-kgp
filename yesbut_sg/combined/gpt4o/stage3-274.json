@@ -1,0 +1,8 @@
+{
+  "id": "stage3-274",
+  "stage": "stage3",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"robot_vacuum_1\",\n      \"attributes\": [\"clean\", \"shine\"],\n      \"relationships\": {\n        \"location\": \"left_panel\"\n      }\n    },\n    {\n      \"name\": \"text_yes\",\n      \"attributes\": [\"affirmative\"],\n      \"relationships\": {\n        \"associated_with\": \"robot_vacuum_1\"\n      }\n    },\n    {\n      \"name\": \"robot_vacuum_2\",\n      \"attributes\": [\"not_clean\", \"dusty\"],\n      \"relationships\": {\n        \"location\": \"right_panel\"\n      }\n    },\n    {\n      \"name\": \"hand\",\n      \"attributes\": [\"holding_brush\"],\n      \"relationships\": {\n        \"interacting_with\": \"robot_vacuum_2\"\n      }\n    },\n    {\n      \"name\": \"text_but\",\n      \"attributes\": [\"contradictive\"],\n      \"relationships\": {\n        \"associated_with\": \"robot_vacuum_2\"\n      }\n    }\n  ]\n}\n```",
+  "final_answer": "The humor in the image comes from the contrast between expectations and reality. In the left panel, labeled \"YES,\" the robot vacuum is shown clean and working perfectly, which aligns with the ideal expectation of a robot vacuum. The right panel, labeled \"BUT,\" humorously contradicts this by showing a dusty robot vacuum needing manual cleaning with a brush.\n\nThis satirically highlights the irony of technology that is supposed to clean for you but ends up needing maintenance itself, sometimes defeating the purpose of having a labor-saving device.",
+  "ground_truth": "This is funny, because the machine while doing its job cleans everything but ends up being dirty itself."
+}

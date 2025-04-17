@@ -1,0 +1,8 @@
+{
+  "id": "stage4-86",
+  "stage": "stage4",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"shoes\",\n      \"name\": \"shoes\",\n      \"attributes\": {\n        \"appearance\": \"polished\",\n        \"color\": \"black\"\n      }\n    },\n    {\n      \"id\": \"socks\",\n      \"name\": \"socks\",\n      \"attributes\": {\n        \"expression\": \"angry\",\n        \"smell\": \"bad\",\n        \"appearance\": \"worn\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"from\": \"socks\",\n      \"to\": \"shoes\",\n      \"relationship\": \"worn_in\"\n    }\n  ],\n  \"sceneAttributes\": {\n    \"text\": {\n      \"above_shoes\": \"YES,\",\n      \"above_socks\": \"BUT\"\n    },\n    \"contrast\": {\n      \"expression_and_condition\": \"shoes look polished but socks are angry and smelly\"\n    }\n  }\n}\n```",
+  "final_answer": "This image is funny or satirical due to the contrast between the polished appearance of the shoes and the comically exaggerated state of the socks. The shoes are shown as immaculate and refined, indicated by the \"YES,\" caption, while the socks are depicted with angry faces and smell lines, labeled with \"BUT.\" This highlights the comedic disparity between external appearances versus what lies beneath, poking fun at the idea that someone might appear perfectly put-together on the outside, while hiding something unpleasant or chaotic underneath. The personification of the socks adds a humorous touch, as they express dissatisfaction in an exaggeratedly angry manner.",
+  "ground_truth": "The person's shocks is very dirty although the shoes are very clean. Thus there is an irony that not all things are same as they appear."
+}

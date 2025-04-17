@@ -1,0 +1,3 @@
+{
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"box\",\n      \"attributes\": [\"toy set\", \"secured with seatbelt\"]\n    },\n    {\n      \"name\": \"man\",\n      \"attributes\": [\"unsecured\", \"sitting in car\"]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"subject\": \"box\",\n      \"relationship\": \"secured with\",\n      \"object\": \"seatbelt\"\n    },\n    {\n      \"subject\": \"man\",\n      \"relationship\": \"sitting next to\",\n      \"object\": \"box\"\n    },\n    {\n      \"subject\": \"man\",\n      \"relationship\": \"not using\",\n      \"object\": \"seatbelt\"\n    }\n  ]\n}\n```\n"
+}

@@ -1,0 +1,3 @@
+{
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"scooters\",\n      \"name\": \"Scooters\",\n      \"attributes\": [\"stacked\", \"new\", \"aligned\"]\n    },\n    {\n      \"id\": \"road\",\n      \"name\": \"Road\",\n      \"attributes\": [\"cracked\", \"uneven\", \"crumbly\"]\n    }\n  ],\n  \"relationships\": [\n    {\n      \"relation\": \"contrast\",\n      \"subject\": \"scooters\",\n      \"object\": \"road\",\n      \"description\": \"The new, aligned scooters are contrasted with the cracked, uneven road.\"\n    }\n  ]\n}\n```"
+}

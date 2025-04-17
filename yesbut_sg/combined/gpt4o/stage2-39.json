@@ -1,0 +1,8 @@
+{
+  "id": "stage2-39",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"phone_screen_left\",\n      \"attributes\": [\"text_message\", \"heart_icon\"],\n      \"relationships\": {\n        \"with\": \"hand_left\",\n        \"shows\": \"compliment\"\n      }\n    },\n    {\n      \"name\": \"phone_screen_right\",\n      \"attributes\": [\"reflection\", \"funny_face\"],\n      \"relationships\": {\n        \"with\": \"hand_right\",\n        \"displays\": \"self_image\"\n      }\n    },\n    {\n      \"name\": \"hand_left\",\n      \"attributes\": [\"holding\"],\n      \"relationships\": {\n        \"holding\": \"phone_screen_left\"\n      }\n    },\n    {\n      \"name\": \"hand_right\",\n      \"attributes\": [\"holding\"],\n      \"relationships\": {\n        \"holding\": \"phone_screen_right\"\n      }\n    }\n  ]\n}\n```\n",
+  "final_answer": "The humor in this image comes from the juxtaposition between expectation and reality.\n\nIn the first panel, someone receives a flattering text message, \"You are cute,\" which is accompanied by a heart icon, suggesting a compliment and boosting the receiver's self-esteem.\n\nIn the second panel, the \"BUT\" reveals a reflection on the phone screen showing a comical, exaggerated self-image with a funny face. This undercuts the compliment by highlighting an unflattering, unexpected self-view.\n\nThe satire lies in how technology can distort self-perception, combining social validation with the often harsh reality of candid reflection.",
+  "ground_truth": "The image is ironic, because person who received the text saying \"you are cute\" is apparently not good looking according to the beauty\u00c3\u0082\u00c2\u00a0standards"
+}

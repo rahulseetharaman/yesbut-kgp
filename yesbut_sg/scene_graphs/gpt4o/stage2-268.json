@@ -1,0 +1,3 @@
+{
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"First Panel Phone\",\n      \"attributes\": [\"ultra slim\"],\n      \"relationships\": {\n        \"text\": \"ULTRA SLIM\"\n      }\n    },\n    {\n      \"name\": \"Second Panel Phone\",\n      \"attributes\": [\"charging\"],\n      \"relationships\": {\n        \"connected to\": \"Power Bank\"\n      }\n    },\n    {\n      \"name\": \"Power Bank\",\n      \"attributes\": [\"bulky\"],\n      \"relationships\": {\n        \"connected to\": \"Second Panel Phone\",\n        \"held by\": \"Hand\"\n      }\n    },\n    {\n      \"name\": \"Hand\",\n      \"attributes\": [],\n      \"relationships\": {\n        \"holding\": [\"First Panel Phone\", \"Power Bank\"]\n      }\n    }\n  ]\n}\n```"
+}

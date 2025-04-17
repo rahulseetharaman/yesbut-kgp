@@ -1,0 +1,3 @@
+{
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"id\": \"1\",\n      \"name\": \"Fancy Coffee Cup\",\n      \"attributes\": [\"decorative latte art\", \"saucer\", \"spoon\"],\n      \"relationships\": {\n        \"contrast_with\": \"Minimalist Coffee Cup\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"name\": \"Minimalist Coffee Cup\",\n      \"attributes\": [\"simple design\", \"lid\"],\n      \"relationships\": {\n        \"contrast_with\": \"Fancy Coffee Cup\"\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"name\": \"Text\",\n      \"attributes\": [\"YES, BUT\"],\n      \"relationships\": {\n        \"describes_relation_between\": [\"Fancy Coffee Cup\", \"Minimalist Coffee Cup\"]\n      }\n    }\n  ]\n}\n```"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "stage2-256",
+  "stage": "stage2",
+  "difficulty": "EASY",
+  "scene_graph": "```json\n{\n  \"objects\": [\n    {\n      \"name\": \"robot_vacuum\",\n      \"attributes\": [\"clean\", \"shiny\"],\n      \"relationships\": {\n        \"located_under\": \"furniture\",\n        \"next_to\": \"carpet\"\n      }\n    },\n    {\n      \"name\": \"hand\",\n      \"attributes\": [\"pointing\"],\n      \"relationships\": {\n        \"pointing_at\": \"robot_vacuum\"\n      }\n    }\n  ],\n  \"relationships\": [\n    {\n      \"from\": \"robot_vacuum\",\n      \"to\": \"furniture\",\n      \"relationship\": \"located_under\"\n    },\n    {\n      \"from\": \"robot_vacuum\",\n      \"to\": \"carpet\",\n      \"relationship\": \"next_to\"\n    },\n    {\n      \"from\": \"hand\",\n      \"to\": \"robot_vacuum\",\n      \"relationship\": \"pointing_at\"\n    }\n  ]\n}\n```",
+  "final_answer": "The humor in this comic comes from the subversion of expectations. The first panel shows a \"clean\" and \"shiny\" robot vacuum, suggesting that it effectively cleans a room. However, the second panel, featuring a hand pointing at the vacuum, implies it might be responsible for some mess or oversight, possibly blaming the robot for not doing its job perfectly despite its shiny appearance.\n\nThe contrast between the visual approval in the first panel (\"Yes\") and the ensuing suggestion of dissatisfaction in the second panel (\"But\") creates a humorous commentary on modern technology: it looks good, but there's always a catch.",
+  "ground_truth": "This is funny, because the machine while doing its job cleans everything but ends up being dirty itself."
+}
